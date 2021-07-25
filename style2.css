@@ -1,0 +1,40 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2016/04/15/11/48/hotel-1330850__480.jpg) !important;
+} 
+article img#one,article img#two,article img#three,article img#four{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius:50% !important;
+
+}
+
+#html{
+        display: flex;
+}
+#none{
+    background: rgb(185, 174, 170);
+    width: 800px;
+    border-radius: 10px;
+    
+}
+#basic{
+    background: rgb(207, 170, 157);
+    width: 200px;
+    border-radius: 10px;
+  
+    display: inline-block;
+}
+#izhak{
+    background: rgb(228, 189, 175);
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+#text{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: gray;
+}
+span{
+    font-size: larger;
+}
