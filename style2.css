@@ -1,40 +1,46 @@
-body{
+/* body{
    background-image: url(https://cdn.pixabay.com/photo/2016/04/15/11/48/hotel-1330850__480.jpg) !important;
-} 
-article img#one,article img#two,article img#three,article img#four{
+   
+}  */
+#img{
+    width: 100vw;
+    height: 60vh;
+}
+.one{
+    background: rgb(223, 215, 107);
+    width: 800px; 
+    border-radius: 10px;
+    border: 2px rgb(190, 106, 76) solid;
+}
+.two{
+    background: rgb(223, 215, 107);
+    width: 200px;
+    border-radius: 10px;
+    border: 2px rgb(190, 106, 76) solid;
+}
+.three{
+    background: rgb(223, 215, 107);
+    width: 250px; 
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px rgb(190, 106, 76) solid;
+}
+article img#four,article img#five,article img#six,article img#seven{
     width: 200px !important;
     height: 200px !important;
     border-radius:50% !important;
-
+    border: 3px rgb(190, 106, 76) solid;
 }
-
 #html{
         display: flex;
 }
-#none{
-    background: rgb(185, 174, 170);
-    width: 800px;
-    border-radius: 10px;
-    
+#dad{
+    display: flex;
+    margin:2px ;
+} 
+.two{
+    margin-left: 2px;
 }
-#basic{
-    background: rgb(207, 170, 157);
-    width: 200px;
-    border-radius: 10px;
-  
-    display: inline-block;
-}
-#izhak{
-    background: rgb(228, 189, 175);
-    width: 200px;
-    border-radius: 10px;
-    padding: 10px;
-    display: inline-block;
-}
-#text{
-    font-family:Arial, Helvetica, sans-serif ;
-    color: gray;
-}
-span{
-    font-size: larger;
+#name{
+    background-color:rgb(146, 141, 74);
 }

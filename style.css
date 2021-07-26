@@ -1,6 +1,6 @@
-body{
+ /* body{
     background-color: rgb(240, 232, 222)!important;
-}
+} */
 .name{
      display: flex !important;
      flex-wrap: wrap !important;
@@ -20,24 +20,39 @@ article#basic:hover{
     filter: drop-shadow(0 0 0.75rem rgb(48, 43, 43))!important;
     
 } 
+#img{
+    width: 100vw;
+    height: 50vh;
+
+}
+#div{
+    background-color:  rgb(240, 232, 222)!important;
+}
 .under{
-    background-color: rgb(194, 194, 224)!important;
+    /* background-color: rgb(194, 194, 224)!important; */
     border-radius: 5%!important;
     display: flex!important;
-    width: 500px!important;
+    flex-wrap: wrap;
+    /* width: 500px!important;  */
 }
-article#one{
-    margin-right: 40px!important;
-    width:100px !important;
-}
+#one{
+    width:30%!important;
+    border:2px rgb(88, 83, 83) solid;
+    padding: 10px;
+    background-color: rgb(233, 221, 221);  
+} 
 #two{
-    margin-right: 100px!important;
+    width:30%;
+    border:2px rgb(88, 83, 83) solid;
+    padding: 10px;
+    background-color:  rgb(233, 221, 221);
 }
-article input{
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+#three{
+    width:30%;
+    border:2px rgb(88, 83, 83) solid;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(233, 221, 221);
 }
 #super{
     background: white;
@@ -47,7 +62,8 @@ article input{
 }
 #super a img{
     width: 100px;
+    display: inline-block;
 }
 #super a img:hover{
     filter: drop-shadow(0 0 0.75rem rgb(48, 43, 43))!important;
-}
+} 
